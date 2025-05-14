@@ -5,7 +5,7 @@ This project is a full-stack text classification application that includes:
 2. A Flask backend that serves predictions
 3. A responsive web interface for user interaction
 
-![Text Classification App Interface](/api/placeholder/800/400)
+![Text Classification App Interface](/pic/1.png)
 
 ## Project Structure 
 
@@ -91,7 +91,7 @@ You should see the application interface as shown in the screenshot above.
 
 ## Using the Application
 
-![Text Classification Demo](/api/placeholder/800/450)
+![Text Classification Demo](/pic/1.png)
 
 1. Enter or paste the text you want to classify in the input box
 2. Click the "Classify" button
