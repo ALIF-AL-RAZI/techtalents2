@@ -99,7 +99,29 @@ You should see the application interface as shown in the screenshot above.
 4. The application will display:
    - The predicted category
    - Confidence score (when available)
-   
+
+
+## Machine Learning Image
+
+![Imbalance Data](/pic/3.png)
+
+![Balance Data](/pic/4.png)
+
+![Multinomial Naive Bayes Confusion Matrix](/pic/5.png)
+
+![Bernoulli Naive Bayes Confusion Matrix](/pic/6.png)
+
+![Logistic Regression Confusion Matrix](/pic/7.png)
+
+![LinearSVC Confusion Matrix](/pic/8.png)
+
+![Random Forest Confusion Matrix](/pic/9.png)
+
+![Accuracy Comparison](/pic/10.png)
+
+![Tuned Model Confusion Matrix](/pic/11.png)
+
+![Ensemble Model Confusion Matrix](/pic/12.png)
 
 
 ## Troubleshooting
