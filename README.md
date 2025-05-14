@@ -56,7 +56,7 @@ Alternatively, you can download the ZIP file from the GitHub repository and extr
 ```bash
 # On Windows
 python -m venv venv
-venv\Scripts\activate
+./venv/Scripts/Activate.ps1
 
 # On macOS/Linux
 python -m venv venv
