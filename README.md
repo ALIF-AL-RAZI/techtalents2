@@ -43,7 +43,7 @@ text-classifier/
 1. Clone the repository using Git:
 
 ```bash
-git clone https://github.com/yourusername/text-classifier.git
+git clone https://github.com/ALIF-AL-RAZI/techtalents2.git
 cd text-classifier
 ```
 
