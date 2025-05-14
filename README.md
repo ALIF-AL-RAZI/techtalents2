@@ -91,7 +91,7 @@ You should see the application interface as shown in the screenshot above.
 
 ## Using the Application
 
-![Text Classification Demo](/pic/1.png)
+![Text Classification Demo](/pic/2.png)
 
 1. Enter or paste the text you want to classify in the input box
 2. Click the "Classify" button
