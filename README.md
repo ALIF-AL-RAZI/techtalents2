@@ -101,7 +101,7 @@ You should see the application interface as shown in the screenshot above.
    - Confidence score (when available)
 
 
-##View Machine Learning Code
+## View Machine Learning Code
 
 [View Machine Learning Code](https://nbviewer.org/github/ALIF-AL-RAZI/techtalents2/blob/main/main3.ipynb)
 
