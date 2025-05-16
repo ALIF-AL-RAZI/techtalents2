@@ -39,12 +39,8 @@ vectorizer, model = load_models()
 def index():
     return render_template('index.html')
 
-@app.route('/classify', methods=['POST'])
-def classify():
-    # Get input text from request
-    text = request.form.get('text', '')
-    
-    # Process and classify text
+# Helper function for text classification
+def classify_text(text):
     if text and vectorizer and model:
         # Preprocess text
         processed_text = preprocess_text(text)
@@ -70,16 +66,30 @@ def classify():
         class_probs.sort(key=lambda x: x['probability'], reverse=True)
         
         # Return top 3 classes with probabilities
-        return jsonify({
+        return {
             'success': True,
             'prediction': prediction,
             'probabilities': class_probs[:3]
-        })
+        }
     else:
-        return jsonify({
+        return {
             'success': False,
             'error': 'Either no text was provided or models are not loaded.'
-        })
+        }
+
+@app.route('/classify', methods=['POST'])
+def classify():
+    # Get input text from request
+    text = request.form.get('text', '')
+    result = classify_text(text)
+    return jsonify(result)
+
+@app.route('/api/classify', methods=['POST'])
+def api_classify():
+    # Get input text from request
+    text = request.form.get('text', '')
+    result = classify_text(text)
+    return jsonify(result)
 
 @app.route('/upload', methods=['POST'])
 def upload_model():
