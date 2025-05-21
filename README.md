@@ -1,4 +1,13 @@
-# Text Classification Application
+## Deploment
+
+https://techtalents.onrender.com
+
+## View Machine Learning Code
+
+[View Machine Learning Code](https://nbviewer.org/github/ALIF-AL-RAZI/techtalents2/blob/main/main3.ipynb)
+
+
+## Text Classification Application
 
 This project is a full-stack text classification application that includes:
 1. A machine learning model for text classification
@@ -100,10 +109,6 @@ You should see the application interface as shown in the screenshot above.
    - The predicted category
    - Confidence score (when available)
 
-
-## View Machine Learning Code
-
-[View Machine Learning Code](https://nbviewer.org/github/ALIF-AL-RAZI/techtalents2/blob/main/main3.ipynb)
 
 
 ## Machine Learning Image
